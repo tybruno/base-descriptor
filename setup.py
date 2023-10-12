@@ -8,14 +8,14 @@ with open("README.md", "r", encoding="utf-8") as file:
     README = file.read()
 
 setuptools.setup(
-    name="abstract-descriptor",
+    name="descriptor",
     version=__version__,
     author=__author__,
     long_description=README,
     long_description_content_type="text/markdown",
     keywords="descriptor data-descriptor non-data-descriptor "
              "slottable-data-descriptor",
-    url="https://github.com/tybruno/abstract-descriptor",
+    url="https://github.com/tybruno/descriptor",
     license="MIT",
     packages=setuptools.find_packages(),
     install_requires=INSTALL_REQUIRES,

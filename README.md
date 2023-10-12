@@ -1,9 +1,9 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/tybruno/abstract-descriptor/branch/main/graph/badge.svg?token=ZO94EJFI3G)](https://codecov.io/gh/tybruno/abstract-descriptor)
+[![codecov](https://codecov.io/gh/tybruno/descriptor/branch/main/graph/badge.svg?token=ZO94EJFI3G)](https://codecov.io/gh/tybruno/descriptor)
 
-# abstract-descriptor
+# descriptor
 
 A simple, fast, typed, and tested abstract and base classes for a python3.6+
 Non Data Descriptor, Data Descriptor, and Slottable Data Descriptor. The goal
@@ -23,7 +23,7 @@ descriptors for their own use case.
 
 ## Installation
 
-`pip install abstract-descriptor`
+`pip install descriptor`
 
 ## Objects Provided in this module
 
