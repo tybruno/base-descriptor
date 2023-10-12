@@ -313,5 +313,7 @@ This module was heavily inspired by the following resources:
 
 2. **Descriptor HowTo Guide**
     - Source: Python Documentation
-    -
-   URL: [Descriptor HowTo Guide](https://docs.python.org/3/howto/descriptor.html)
+    - URL:
+      [Descriptor HowTo Guide](https://docs.python.org/3/howto/descriptor.html)
+
+
