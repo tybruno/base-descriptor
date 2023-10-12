@@ -1,5 +1,3 @@
-import typing
-
 from descriptor import AbstractNonDataDescriptor
 
 

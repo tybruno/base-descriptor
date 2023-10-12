@@ -1,9 +1,14 @@
-from descriptor.data_descriptor import AbstractDataDescriptor, \
-    BaseDataDescriptor, DefaultDescriptor, \
-    ReadOnly
+from descriptor.data_descriptor import (
+    AbstractDataDescriptor,
+    BaseDataDescriptor,
+    DefaultDescriptor,
+    ReadOnly,
+)
 from descriptor.non_data_descriptor import AbstractNonDataDescriptor
-from descriptor.slottable_data_descriptor import \
-    SlottableDefaultDescriptor, BaseSlottableDataDescriptor
+from descriptor.slottable_data_descriptor import (
+    BaseSlottableDataDescriptor,
+    SlottableDefaultDescriptor,
+)
 
 __all__ = (
     AbstractNonDataDescriptor.__name__,

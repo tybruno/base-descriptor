@@ -1,4 +1,4 @@
-from descriptor import ReadOnly, BaseDataDescriptor, DefaultDescriptor
+from descriptor import BaseDataDescriptor, DefaultDescriptor, ReadOnly
 
 
 def read_only_example():

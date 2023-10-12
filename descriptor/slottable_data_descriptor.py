@@ -23,8 +23,9 @@ References:
         Udemy. Available at:
         https://www.udemy.com/course/python-3-deep-dive-part-4/
 """
-from typing import NamedTuple, Type, Optional, Dict, Any, NoReturn
 import weakref
+from typing import Any, Dict, NamedTuple, NoReturn, Optional, Type
+
 from descriptor import data_descriptor
 
 # Globals
