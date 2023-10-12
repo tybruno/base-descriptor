@@ -1,4 +1,4 @@
-from abstract_descriptor import (
+from descriptor import (
     BaseSlottableDataDescriptor,
     SlottableDefaultDescriptor,
 )

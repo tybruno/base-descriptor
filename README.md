@@ -84,7 +84,7 @@ Simple way to Inherit from `AbstractNonDataDescriptor` to create your own Non
 Data Descriptor.
 
 ```python
-from abstract_descriptor import AbstractNonDataDescriptor
+from descriptor import AbstractNonDataDescriptor
 
 
 class SquareDescriptor(AbstractNonDataDescriptor):
@@ -115,7 +115,7 @@ print(my_instance.square)  # 25
 ### `ReadOnly`
 
 ```python
-from abstract_descriptor import ReadOnly
+from descriptor import ReadOnly
 
 
 class Person:
@@ -132,7 +132,7 @@ person.name = "Raymond"  # raises AttributeError
 Default Descriptor that provides a default value for the attribute.
 
 ```python
-from abstract_descriptor import DefaultDescriptor
+from descriptor import DefaultDescriptor
 
 
 class Person:
@@ -154,7 +154,7 @@ the `__set_name__()`, `__set__()`, `__get__()`,
 or `__delete__()` methods to match your requirements.
 
 ```python
-from abstract_descriptor import BaseDataDescriptor
+from descriptor import BaseDataDescriptor
 
 
 class Plus2(BaseDataDescriptor):
@@ -178,7 +178,7 @@ Provides an Abstract Base Class that can be inherited from to help create your
 own Data Descriptors.
 
 ```python
-from abstract_descriptor import AbstractDataDescriptor
+from descriptor import AbstractDataDescriptor
 
 
 class MyDataDescriptor(AbstractDataDescriptor):
@@ -207,11 +207,11 @@ print(obj.my_data_descriptor)  # 1
 ## Inheriting From `AbstractNonDataDescriptor` Example
 
 ```python
-import abstract_descriptor
+import descriptor
 
 
 class MyDefaultNonDataDescriptor(
-    abstract_descriptor.AbstractNonDataDescriptor
+    descriptor.AbstractNonDataDescriptor
 ):
     def __init__(self, value):
         self._value = value
@@ -239,7 +239,7 @@ obj.my_non_data_descriptor = "goodbye"  # Raises AttributeError
 Slottable Default Descriptor that provides a default value for the attribute.
 
 ```python
-from abstract_descriptor import SlottableDefaultDescriptor
+from descriptor import SlottableDefaultDescriptor
 
 
 class Person:
@@ -263,7 +263,7 @@ the `__set_name__()`, `__set__()`, `__get__()`,
 or `__delete__()` methods to match your requirements.
 
 ```python
-from abstract_descriptor import BaseSlottableDataDescriptor
+from descriptor import BaseSlottableDataDescriptor
 
 
 class MyDescriptor(BaseSlottableDataDescriptor):

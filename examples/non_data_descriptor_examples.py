@@ -1,6 +1,6 @@
 import typing
 
-from abstract_descriptor import AbstractNonDataDescriptor
+from descriptor import AbstractNonDataDescriptor
 
 
 def abstract_non_data_descriptor_example():

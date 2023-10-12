@@ -25,7 +25,7 @@ References:
 """
 from typing import NamedTuple, Type, Optional, Dict, Any, NoReturn
 import weakref
-from abstract_descriptor import data_descriptor
+from descriptor import data_descriptor
 
 # Globals
 # Sentinel value to indicate no default value was provided.

@@ -1,8 +1,8 @@
-from abstract_descriptor.data_descriptor import AbstractDataDescriptor, \
+from descriptor.data_descriptor import AbstractDataDescriptor, \
     BaseDataDescriptor, DefaultDescriptor, \
     ReadOnly
-from abstract_descriptor.non_data_descriptor import AbstractNonDataDescriptor
-from abstract_descriptor.slottable_data_descriptor import \
+from descriptor.non_data_descriptor import AbstractNonDataDescriptor
+from descriptor.slottable_data_descriptor import \
     SlottableDefaultDescriptor, BaseSlottableDataDescriptor
 
 __all__ = (
