@@ -25,7 +25,22 @@ descriptors for their own use case.
 
 `pip install descriptor`
 
-## Objects Provided in this module
+## Table of Contents
+
+- [Objects Provided in this Module](#objects-provided-in-this-module)
+    - [Non Data Descriptors](#non-data-descriptors)
+    - [Data Descriptors](#data-descriptors)
+    - [Slottable Data Descriptors](#slottable-data-descriptors)
+- [Non Data Descriptor Examples](#non-data-descriptor-examples)
+    - [`AbstractNonDataDescriptor`](#abstractnondatadescriptor)
+- [Data Descriptor Examples](#data-descriptor-examples)
+    - [`ReadOnly`](#readonly)
+    - [`DefaultDescriptor`](#defaultdescriptor)
+    - [`BaseDataDescriptor`](#basedatadescriptor)
+    - [`AbstractDataDescriptor`](#abstractdatadescriptor)
+- [References](#references)
+
+## Objects Provided in this Module
 
 ### Non Data Descriptors
 
