@@ -17,7 +17,7 @@ References:
         https://www.udemy.com/course/python-3-deep-dive-part-4/
 """
 import abc
-from typing import Type, Optional, Any
+from typing import Any, Optional, Type
 
 
 class AbstractNonDataDescriptor(abc.ABC):

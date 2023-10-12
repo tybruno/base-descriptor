@@ -233,9 +233,7 @@ from descriptor import SlottableDefaultDescriptor
 
 class Person:
     __slots__ = "__weakref__"
-    first_name = SlottableDefaultDescriptor(
-        default="Guido"
-    )
+    first_name = SlottableDefaultDescriptor(default="Guido")
 
 
 person = Person()
