@@ -221,34 +221,6 @@ obj.my_data_descriptor = 1
 print(obj.my_data_descriptor)  # 1
 ```
 
-## `AbstractNonDataDescriptor` Example
-
-```python
-import descriptor
-
-
-class MyDefaultNonDataDescriptor(
-    descriptor.AbstractNonDataDescriptor
-):
-    def __init__(self, value):
-        self._value = value
-
-    def __get__(self, instance, owner=None):
-        return self._value
-
-    def __set__(self, instance, value):
-        raise AttributeError(f"{instance}.{self._value}", "is read only.")
-
-
-class MyClass:
-    my_non_data_descriptor = MyDefaultNonDataDescriptor("hello")
-
-
-obj = MyClass()
-print(obj.my_non_data_descriptor)  # hello
-obj.my_non_data_descriptor = "goodbye"  # Raises AttributeError
-```
-
 ## Slottable Data Descriptors
 
 ### `SlottableDefaultDescriptor`
