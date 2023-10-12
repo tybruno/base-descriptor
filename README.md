@@ -204,7 +204,7 @@ obj.my_data_descriptor = 1
 print(obj.my_data_descriptor)  # 1
 ```
 
-## Inheriting From `AbstractNonDataDescriptor` Example
+## `AbstractNonDataDescriptor` Example
 
 ```python
 import descriptor
