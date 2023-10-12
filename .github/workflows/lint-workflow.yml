@@ -20,4 +20,4 @@ jobs:
         pip install pylama
     - name: Analysing the code with pylint
       run: |
-        pylama --skip='tests/*'
+        pylama --skip='tests/*, examples/*'
