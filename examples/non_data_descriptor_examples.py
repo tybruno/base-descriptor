@@ -1,4 +1,4 @@
-from descriptor import AbstractNonDataDescriptor
+from base_descriptor import AbstractNonDataDescriptor
 
 
 def abstract_non_data_descriptor_example():

@@ -1,4 +1,4 @@
-from descriptor import (
+from base_descriptor import (
     BaseSlottableDataDescriptor,
     SlottableDefaultDescriptor,
 )

@@ -1,14 +1,16 @@
 import setuptools
 
+__name__ = "base-descriptor"
 __version__ = "1.0"
 __author__ = "Tyler Bruno"
+
 INSTALL_REQUIRES = []
 
 with open("README.md", "r", encoding="utf-8") as file:
     README = file.read()
 
 setuptools.setup(
-    name="descriptor",
+    name=__name__,
     version=__version__,
     author=__author__,
     long_description=README,
