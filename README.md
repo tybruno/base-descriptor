@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/tybruno/descriptor/branch/main/graph/badge.svg?token=j6pZAXF6cw)](https://codecov.io/gh/tybruno/descriptor)
 
-# descriptor
+# base-descriptor
 
 A simple, fast, typed, and tested abstract and base classes for a python3.6+
 Non Data Descriptor, Data Descriptor, and Slottable Data Descriptor. The goal
@@ -22,7 +22,7 @@ descriptors for their own use case.
 
 ## Installation
 
-`pip install descriptor`
+`pip install base-descriptor`
 
 ## Table of Contents
 
