@@ -1,11 +1,11 @@
 import pytest
 
-import descriptor
+import base_descriptor
 
 
 @pytest.fixture(
-    params=[descriptor.SlottableDefaultDescriptor,
-            descriptor.DefaultDescriptor],
+    params=[base_descriptor.SlottableDefaultDescriptor,
+            base_descriptor.DefaultDescriptor],
     ids=["SlottableDefaultDataDescriptor", "DefaultDataDescriptor"],
 )
 def default_data_descriptor(request):
@@ -13,8 +13,8 @@ def default_data_descriptor(request):
 
 
 @pytest.fixture(
-    params=[descriptor.BaseSlottableDataDescriptor,
-            descriptor.BaseDataDescriptor],
+    params=[base_descriptor.BaseSlottableDataDescriptor,
+            base_descriptor.BaseDataDescriptor],
     ids=["BaseSlottableDataDescriptor", "BaseDataDescriptor"],
 )
 def base_data_descriptor(request):
@@ -70,7 +70,7 @@ class TestDefaultDescriptor:
 
 class TestReadOnly:
     def test_read_only(self):
-        _descriptor = descriptor.ReadOnly(1)
+        _descriptor = base_descriptor.ReadOnly(1)
 
         class A:
             x: int = _descriptor

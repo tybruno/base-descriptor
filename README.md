@@ -101,7 +101,7 @@ Simple way to Inherit from `AbstractNonDataDescriptor` to create your own Non
 Data Descriptor.
 
 ```python
-from descriptor import AbstractNonDataDescriptor
+from base_descriptor import AbstractNonDataDescriptor
 
 
 class SquareDescriptor(AbstractNonDataDescriptor):
@@ -132,7 +132,7 @@ print(my_instance.square)  # 25
 ### `ReadOnly`
 
 ```python
-from descriptor import ReadOnly
+from base_descriptor import ReadOnly
 
 
 class Person:
@@ -149,7 +149,7 @@ person.name = "Raymond"  # raises AttributeError
 Default Descriptor that provides a default value for the attribute.
 
 ```python
-from descriptor import DefaultDescriptor
+from base_descriptor import DefaultDescriptor
 
 
 class Person:
@@ -171,7 +171,7 @@ the `__set_name__()`, `__set__()`, `__get__()`,
 or `__delete__()` methods to match your requirements.
 
 ```python
-from descriptor import BaseDataDescriptor
+from base_descriptor import BaseDataDescriptor
 
 
 class Plus2(BaseDataDescriptor):
@@ -195,7 +195,7 @@ Provides an Abstract Base Class that can be inherited from to help create your
 own Data Descriptors.
 
 ```python
-from descriptor import AbstractDataDescriptor
+from base_descriptor import AbstractDataDescriptor
 
 
 class MyDataDescriptor(AbstractDataDescriptor):
@@ -228,7 +228,7 @@ print(obj.my_data_descriptor)  # 1
 Slottable Default Descriptor that provides a default value for the attribute.
 
 ```python
-from descriptor import SlottableDefaultDescriptor
+from base_descriptor import SlottableDefaultDescriptor
 
 
 class Person:
@@ -250,7 +250,7 @@ the `__set_name__()`, `__set__()`, `__get__()`,
 or `__delete__()` methods to match your requirements.
 
 ```python
-from descriptor import BaseSlottableDataDescriptor
+from base_descriptor import BaseSlottableDataDescriptor
 
 
 class MyDescriptor(BaseSlottableDataDescriptor):

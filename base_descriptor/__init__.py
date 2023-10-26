@@ -1,11 +1,11 @@
-from descriptor.data_descriptor import (
+from base_descriptor.data_descriptor import (
     AbstractDataDescriptor,
     BaseDataDescriptor,
     DefaultDescriptor,
     ReadOnly,
 )
-from descriptor.non_data_descriptor import AbstractNonDataDescriptor
-from descriptor.slottable_data_descriptor import (
+from base_descriptor.non_data_descriptor import AbstractNonDataDescriptor
+from base_descriptor.slottable_data_descriptor import (
     BaseSlottableDataDescriptor,
     SlottableDefaultDescriptor,
 )
